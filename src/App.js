@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+
+
 
 function App() {
+
+  const nombre = 'Martina' 
+
+  const apellido = 'Carranza'
+
+  let edad = 19
+
+  console.log(edad) //modifico la edad
+
+  edad = 20
+
+  console.log(edad + 21) //le sume 21 a la edad 
+  console.log('Hola ' + nombre + ' ' + apellido + ' ' + edad) 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>const - let - var</h1>
+    </> 
   );
 }
 
